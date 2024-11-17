@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import "@/assets/scss/style.scss";
 
 export const metadata: Metadata = {
   title: "Json Reader",
