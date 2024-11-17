@@ -1,8 +1,11 @@
+import Header from "@/components/layouts/header";
+
 export default function Page() {
-  return (<>
-    <main>
-      test
-    </main>
-  </>
+  return (
+    <>
+      <main>
+        <Header uri="upload" />
+      </main>
+    </>
   );
 }
