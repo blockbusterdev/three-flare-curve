@@ -1,0 +1,12 @@
+/**
+* The main scss file that includes every *.scss files to integrate
+* @author Denys Ostroverkh
+* @Published Nov 16, 2024
+* @updated Nov 16, 2024
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./general";
