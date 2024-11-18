@@ -25,6 +25,7 @@ const FileUpload = () => {
         const parsedData = reader.result as string;
         //dispatch(setFile(parsedData));
         sessionStorage.setItem("file-stream", parsedData);
+        location.href = "/render";
       } catch (error) {
         console.error("Invalid JSON file", error);
       }
