@@ -11,15 +11,25 @@ interface Props {
 
 const Header: React.FC<Props> = ({ uri }) => {
   return (
-    <div>
-      <div className="flex pink white font-bold justify-center pt-1em">
+    <header>
+      <div className="flex yellow white font-bold justify-center pt-1em">
         JSON Reader
       </div>
       <div className="flex w-full white gap-[1em] font-bold items-center justify-center text-[1.5em] pt-[0.5em] pb-[0.3em]">
-        <h1 className={uri === "upload" ? "green" : ""}>Upload</h1>
-        <h2 className={uri === "render" ? "green" : ""}>Render</h2>
+        <a
+          className={uri === "upload" ? "green" : "cursor-pointer"}
+          href="/upload"
+        >
+          Upload
+        </a>
+        <a
+          className={uri === "render" ? "green" : "cursor-pointer"}
+          href="/render"
+        >
+          Render
+        </a>
       </div>
-    </div>
+    </header>
   );
 };
 

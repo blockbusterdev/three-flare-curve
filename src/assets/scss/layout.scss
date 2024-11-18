@@ -1,0 +1,43 @@
+header,
+main,
+footer {
+  max-width: 1024px;
+  width: 100%;
+}
+
+header {
+  border-bottom: 1px solid $gray-color;
+  background: $black-color;
+  border-radius: 2em 2em 0em 0em;
+}
+
+main {
+  border-left: 1px solid $gray-color;
+  border-right: 1px solid $gray-color;
+  padding: 2em 1em;
+}
+
+footer {
+  background: $black-color;
+  font-size: 1em;
+  font-weight: bold;
+  color: $gray-color;
+  text-align: center;
+  padding: 0.5em 0em;
+  border-top: 1px solid $gray-color;
+  border-radius: 0em 0em 2em 2em;
+}
+
+/** style-sheet for Upload page*/
+.page-upload {
+  .file-input {
+    cursor: pointer;
+
+    p {
+      text-align: center;
+      color: $white-color;
+      font-weight: bold;
+      font-size: 1em;
+    }
+  }
+}
