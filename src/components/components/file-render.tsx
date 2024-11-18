@@ -5,12 +5,24 @@ const FileRenderer = () => {
   const [data, setData] = useState<string | null>(null);
 
   //Function to JSON data to arranged text
-  const parseJsonToText = (data: object) => {
-    let result = "";
-    let name = "";
+  const parseJsonToText = (data: object, depth: number): string => {
+    let result = "",
+      padding = "",
+      name = "",
+      i: number;
+
+    for (i = 0; i < depth; i++) {
+      padding += "--";
+    }
 
     for (name in data) {
-      result += `${name}:${data[name as keyof typeof data]}<br><br>`;
+      if (typeof data[name as keyof typeof data] === "object") {
+        result += `${padding} ${name}<br>${parseJsonToText(
+          data[name as keyof typeof data],
+          depth + 1
+        )}`;
+      } else
+        result += `${padding} ${name}: ${data[name as keyof typeof data]}<br>`;
     }
 
     return result;
@@ -19,10 +31,18 @@ const FileRenderer = () => {
   useEffect(() => {
     // This ensures that sessionStorage is accessed only on the client
     let stream = JSON.parse(sessionStorage.getItem("file-stream") as string);
-    setData(parseJsonToText(stream));
+    setData(parseJsonToText(stream, 0));
   }, []);
 
-  return <div className="white">{data ? data : ""}</div>;
+  return (
+    <div className="white">
+      {data
+        ? data
+            .split("<br>")
+            .map((item, index) => <div key={`line-${index}`}>{item}</div>)
+        : ""}
+    </div>
+  );
 };
 
 export default FileRenderer;
