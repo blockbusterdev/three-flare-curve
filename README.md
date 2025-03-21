@@ -1,92 +1,102 @@
-# IWDL Company Website
+# 3D Car Show
 
-This repository contains the codebase for the IWDL company website. The project is built using Next.js, Tailwind CSS, and TypeScript. Its style sheets are compiled using Sass. And It interacts with Firestore to retrieve and store internal data. Lastly, it’s compatible with Gmail for sending emails through the contact page.
-
-![Alt text](./preview.png)
+Welcome to the **3D Car Show project**! This web application showcases a **dynamic and interactive 3D** environment where users can explore various car models using React Three Fiber and Three.js. The project aims to provide an engaging user experience with modern web technologies.
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
+- [Demo](#demo)
+- [Technologies Used](#technologies-used)
+- [Features](#features)  
 - [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
+- [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
+- [Acknowledgements](#acknowledgements)
+  
+## Demo
 
-## Introduction
+[View the Live Demo](https://three-js-landing-page-eight.vercel.app/)
 
-The IWDL company website is designed to provide information about IWDL's services, team, and projects. It is a modern, responsive, and performant web application.
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces.
+- **Three.js**: A 3D library that makes WebGL easier.
+- **React Three Fiber**: A React renderer for Three.js, allowing for a declarative way to work with 3D graphics.
+- **Vercel**: Platform for deploying frontend applications seamlessly.
 
 ## Features
 
-- **Next.js**: A React framework that supports server-side rendering and static site generation, providing optimized performance and SEO benefits.
-- **Tailwind CSS**: A utility-first CSS framework that enables rapid UI development with a focus on flexibility and efficiency.
-- **Sass**: A CSS preprocessor and compiler used to create maintainable, modular, and reusable stylesheets, enhancing the styling workflow.
-- **TypeScript**: A typed superset of JavaScript that enhances code reliability by providing type safety.
-- **Firestore**: A cloud-based NoSQL database used for real-time data retrieval and storage, allowing for scalable and flexible data management.
-- **GMAIL**: Utilizes Gmail’s reliable SMTP server to send emails directly from the contact page, ensuring secure and efficient delivery.
+- Interactive 3D car models that users can rotate and zoom into.
+- Responsive design for seamless use on various devices.
+- Easy navigation and user-friendly interface.
 
 ## Getting Started
 
-To get a local copy up and running, follow these steps.
+To run this project locally, follow these steps:
 
 ### Prerequisites
 
-Make sure you have the following installed:
-
-- Node.js (version 14.x or later)
-- npm or yarn
+- Node.js (version 14 or higher)
+- npm or Yarn
 
 ### Installation
 
 1. Clone the repository:
-
    ```bash
-   git clone https://github.com/ideal-softer/IWDL.git
-   cd IWDL
+   git clone https://github.com/Aanyaa26/Three.js-landing-page.git
+   cd Three.js-landing-page
+   ```
+
+2. Install the dependencies:
+   ```bash
    npm install
-   npm run dev
+   ```
+   or
+   ```bash
+   yarn install
+   ```
 
-2. Project structure
+3. Start the development server:
+   ```bash
+   npm start
+   ```
+   or
+   ```bash
+   yarn start
+   ```
 
-### A typical top-level directory layout
+4. Open your browser and navigate to `http://localhost:3000` to view the application.
 
-    .
-    ├── public                  # Public assets
-    ├── src                     # Source code for the project
-    |  ├── app                  # Directory each router in App-router
-    |  |  ├── about             # about page router
-    |  |  ├── api               # Directory each APIs
-    |  |  |  ├── send-email.ts  # API router for sending email
-    |  |  ├── blog              # blog page router
-    |  |  ├── contact           # contact page router
-    |  |  ├── home              # home page router
-    |  |  ├── portfolio         # portfolio page router
-    |  |  ├── service           # service page router
-    |  |  ├── favicon.ico       # main icon
-    |  |  ├── layout.tsx        # layout router in App-router
-    |  |  ├── not-found.tsx     # note-found page
-    |  |  ├── page.tsx          # main router in App-router
-    |  |  ├── providers.tsx     # root structure
-    |  ├── assets               # every asset files, such as images, scss/css, fonts, icons
-    |  ├── components           # reusable components
-    |  |  ├── layouts           # layout components such as header, footer, main panel
-    |  |  ├── pages             # each page components
-    |  |  |  ├── about.tsx      # about page
-    |  |  |  ├── blog.tsx       # blog page
-    |  |  |  ├── contact.tsx    # contact page
-    |  |  |  ├── home.tsx       # home page
-    |  |  |  ├── portfolio.tsx  # portfolio page
-    |  |  |  ├── service.tsx    # service page
-    |  ├── libs                 # Every static, parameter values, and libraries defined here
-    |  |  |  ├── const.tsx      # const values
-    |  |  |  ├── firebase.tsx   # firebase account credential
-    |  |  |  ├── methods.tsx    # Typescript functions defined here
-    |  |  |  ├── types.tsx      # Every type defined here
-    |  ├── store                # Reducer
-    |  |  |  ├── header.ts      # Reducer actions in header component
-    |  |  |  ├── mask.ts        # Reducer actions for page mask
-    |  |  |  ├── index.ts       # Interface to Reducer
-    ├────────────────────────────────────────────────────────────────
+## Deployment
+
+This project is deployed on Vercel. You can view the live application at [this link](<your-vercel-deployment-url>).
+
+## Contributing
+
+Contributions are welcome! If you have suggestions for improvements or want to report bugs, feel free to open an issue or submit a pull request.
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add some feature"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeature
+   ```
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- Thank you to the creators of **Three.js** and **React Three Fiber** for their amazing work that made this project possible.
+- Special thanks to Gauransh Goel and Sujal Gupta for their guidance and support throughout the development process.
+
+---
