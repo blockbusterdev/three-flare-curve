@@ -1,6 +1,6 @@
-# 3D Car Show
+# three-flare-curve
 
-Welcome to the **3D Car Show project**! This web application showcases a **dynamic and interactive 3D** environment where users can explore various car models using React Three Fiber and Three.js. The project aims to provide an engaging user experience with modern web technologies.
+Welcome to the **three-flare-curve project**! This web application showcases a **dynamic and interactive 3D** environment where users can explore various models using React Three Fiber and Three.js. The project aims to provide an engaging user experience with modern web technologies.
 
 ## Table of Contents
 
@@ -26,7 +26,7 @@ Welcome to the **3D Car Show project**! This web application showcases a **dynam
 
 ## Features
 
-- Interactive 3D car models that users can rotate and zoom into.
+- Interactive 3D models that users can rotate and zoom into.
 - Responsive design for seamless use on various devices.
 - Easy navigation and user-friendly interface.
 
