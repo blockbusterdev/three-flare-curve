@@ -39,7 +39,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Aanyaa26/three-flare-curve.git
+   git clone https://github.com/devtwinkler/three-flare-curve.git
    cd Three.js-flare-curve
    ```
 
