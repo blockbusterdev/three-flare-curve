@@ -12,10 +12,6 @@ Welcome to the **three-flare-curve project**! This web application showcases a *
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
-  
-## Demo
-
-[View the Live Demo](https://three-js-landing-page-eight.vercel.app/)
 
 ## Technologies Used
 
@@ -43,8 +39,8 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Aanyaa26/Three.js-landing-page.git
-   cd Three.js-landing-page
+   git clone https://github.com/Aanyaa26/three-flare-curve.git
+   cd Three.js-flare-curve
    ```
 
 2. Install the dependencies:
@@ -66,10 +62,6 @@ To run this project locally, follow these steps:
    ```
 
 4. Open your browser and navigate to `http://localhost:3000` to view the application.
-
-## Deployment
-
-This project is deployed on Vercel. You can view the live application at [this link](<your-vercel-deployment-url>).
 
 ## Contributing
 
