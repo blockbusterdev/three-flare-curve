@@ -8,7 +8,6 @@ Welcome to the **three-flare-curve project**! This web application showcases a *
 - [Technologies Used](#technologies-used)
 - [Features](#features)  
 - [Getting Started](#getting-started)
-- [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
