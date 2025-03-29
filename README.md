@@ -9,7 +9,6 @@ Welcome to the **three-flare-curve project**! This web application showcases a *
 - [Features](#features)  
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Technologies Used
@@ -80,10 +79,6 @@ Contributions are welcome! If you have suggestions for improvements or want to r
    git push origin feature/YourFeature
    ```
 5. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
